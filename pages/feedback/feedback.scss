@@ -1,0 +1,23 @@
+page-feedback {
+  img {
+    margin: 0 auto;
+    display: block;
+    width: 60%; height: auto;
+  }
+
+  ion-textarea {
+    font-family: Arvo-Regular;
+    font-size: 12pt;
+    font-weight: bold;
+  }
+
+  ion-list {
+    margin-top: 15px;
+  }
+
+  button {
+    font-family: cursive;
+    font-size: 11pt;
+    font-weight: bold;
+  }
+}

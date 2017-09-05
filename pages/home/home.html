@@ -1,0 +1,54 @@
+<ion-menu [content]="homemenu" type="overlay">
+  <ion-content>
+    <img src="assets/img/medilogo.png" class="menulogo"/>
+    <ion-list>
+      <ion-item>
+        <ion-icon name="medical" item-left></ion-icon>
+        <ion-label>Suggest an hospital</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="help-circle" item-left></ion-icon>
+        <ion-label>How to use</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="cog" item-left></ion-icon>
+        <ion-label>Settings</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="information-circle" item-left></ion-icon>
+        <ion-label>About the app</ion-label>
+      </ion-item>
+      <ion-item (click)="gotoPage('FeedbackPage')">
+        <ion-icon name="paper" item-left></ion-icon>
+        <ion-label>Feedback</ion-label>
+      </ion-item>
+      <ion-item (click)="gotoPage('NativeMapPage')">
+        <ion-icon name="map" item-left></ion-icon>
+        <ion-label>Native Map</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #homemenu></ion-nav>
+
+<ion-header>
+  <ion-navbar>
+    <button ion-button icon-only menuToggle><ion-icon name="menu"></ion-icon></button>
+    <ion-title>
+      Am-Guard Pro
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab [root]="page1" title="By Pin" tabIcon="pin"></ion-tab>
+    <ion-tab [root]="page2" title="By Map" tabIcon="map"></ion-tab>
+  </ion-tabs>
+  <ion-fab left bottom>
+    <button ion-fab color="secondary" (click)="presentCallSheet()">
+      <ion-icon name="call"></ion-icon>
+    </button>
+  </ion-fab>
+</ion-content>

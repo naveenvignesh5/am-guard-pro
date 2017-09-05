@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Feedback</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <img src="assets/img/handshake.jpg"/>
+  <ion-list>
+    <ion-item>
+      <ion-textarea placeholder="Would like know your thoughts..."
+      [(ngModel)]="msg"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <button ion-item color="dark">Send Feedback</button>
+    </ion-item>
+  </ion-list>
+</ion-content>
