@@ -1,8 +1,9 @@
 import { Component,ViewChild,ElementRef } from '@angular/core';
-import { IonicPage, NavController } from 'ionic-angular';
+import { IonicPage, NavController,ActionSheetController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
 import { Geolocation } from '@ionic-native/geolocation';
 import {DbutilProvider} from '../../providers/dbutil/dbutil';
+import { CallNumber } from '@ionic-native/call-number';
 
 declare var google;
 
@@ -18,14 +19,18 @@ export class MapPage {
   map:any; data:any; markers:any;
 
   constructor(public navCtrl: NavController,private network:Network,private geolocation:Geolocation,
-  private db:DbutilProvider) {
-    // listen
-    let disconn = this.network.onDisconnect().subscribe(() => {
+  private db:DbutilProvider,private callNumber:CallNumber,private actionSheetCtrl:ActionSheetController) {
+    // listen to network connection and disconnection
+    this.network.onDisconnect().subscribe(() => {
       console.log('No network');
       document.getElementById('map').style.opacity = '0';
       document.getElementById('alertdiv').style.opacity = '1';
     });
 
+    this.network.onConnect().subscribe(()=>{
+      document.getElementById('map').style.opacity = '1';
+      document.getElementById('alertdiv').style.opacity = '0';
+    });
   }
 
   ionViewDidLoad() {
@@ -33,9 +38,44 @@ export class MapPage {
     this.loadMap(); //loading map with markers from json data
   }
 
-  doRefresh(refresher) {
-    this.loadMap();
-    refresher.complete();
+  presentCallSheet() {
+    let sheet = this.actionSheetCtrl.create({
+      title:'Emergency Ambulance Service',
+      buttons: [
+        {
+          text:'Call 108',
+          icon:'call',
+          handler: () => {
+            this.callNumber.callNumber('108',true);
+          }
+        }
+        // {
+        //   text:'Call 102',
+        //   icon:'call',
+        //   handler: ()=>{
+        //     this.callNumber.callNumber('102',true);
+        //   }
+        // } npm uninstall @ngx-translate/core @ngx-translate/http-loader --save
+      ]
+    });
+    sheet.present();
+  }
+
+  presentHosipitalSheet(obj) {
+    let sheet = this.actionSheetCtrl.create({
+      title:obj.name,
+      buttons:[
+        {
+          text:'Call Hospital',
+          icon:'call',
+          handler:()=>{
+            console.log(obj.phone);
+            this.callNumber.callNumber(obj.phone,true);
+          }
+        }
+      ]
+    });
+    sheet.present();
   }
 
   loadMap() {
@@ -77,7 +117,10 @@ export class MapPage {
       position: ll,map:this.map,title: obj.name
     });
     m.setIcon(this.icon);
-  }
+    m.addListener('click',()=>{
+      this.presentHosipitalSheet(obj);
+    });
+  }  
 
   loadAllData() {
     this.db.loadData().subscribe(d => {

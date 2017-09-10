@@ -1,13 +1,17 @@
 <ion-content>
-  <ion-refresher (ionRefresh)="doRefresh($event)">
-    <ion-refresher-content>
-    </ion-refresher-content>
-  </ion-refresher>
-
   <div #map id='map'></div>
 
   <div class="alerticon" id='alertdiv'>
     <ion-icon name="alert"></ion-icon>
+    No Internet Connection Available
   </div>
-  
+
+  <ion-fab left bottom>
+    <button ion-fab color="danger" (click)="loadMap()">
+  		<ion-icon name="refresh"></ion-icon>
+  	</button><br>
+    <button ion-fab color="secondary" (click)="presentCallSheet()">
+      <ion-icon name="call"></ion-icon>
+    </button>
+  </ion-fab>
 </ion-content>
