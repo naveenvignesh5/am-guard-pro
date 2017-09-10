@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ActionSheetController} from 'ionic-angular';
 import {DbutilProvider} from '../../providers/dbutil/dbutil';
 import { CallNumber } from '@ionic-native/call-number';
 import { FormControl } from '@angular/forms';
@@ -16,7 +16,7 @@ export class OfflinePage {
   searchControl:FormControl;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,private db:DbutilProvider,
-  private call:CallNumber) {
+  private call:CallNumber, private actionSheetCtrl:ActionSheetController) {
     this.searchControl = new FormControl();
   }
 
@@ -29,6 +29,28 @@ export class OfflinePage {
       });
   }
 
+  CallSheet() {
+    let sheet = this.actionSheetCtrl.create({
+      title:'Emergency Ambulance Service',
+      buttons: [
+        {
+          text:'Call 108',
+          icon:'call',
+          handler: () => {
+            this.call.callNumber('108',true);
+          }
+        }
+        // {
+        //   text:'Call 102',
+        //   icon:'call',
+        //   handler: ()=>{
+        //     this.callNumber.callNumber('102',true);
+        //   }
+        // } npm uninstall @ngx-translate/core @ngx-translate/http-loader --save
+      ]
+    });
+    sheet.present();
+  }
   loadAllData() {
     this.db.loadData().subscribe(d => {
       this.data = d;

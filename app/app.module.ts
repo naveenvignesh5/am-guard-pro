@@ -9,7 +9,6 @@ import {HttpModule} from '@angular/http';
 import { Network } from '@ionic-native/network';
 import { Geolocation } from '@ionic-native/geolocation';
 import { CallNumber } from '@ionic-native/call-number';
-import { GoogleMaps } from '@ionic-native/google-maps';
 
 import { MyApp } from './app.component';
 import { DbutilProvider } from '../providers/dbutil/dbutil';
@@ -43,7 +42,7 @@ import { DbutilProvider } from '../providers/dbutil/dbutil';
   ],
   providers: [
     Network,Geolocation,CallNumber,
-    StatusBar,SplashScreen,GoogleMaps,
+    StatusBar,SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     DbutilProvider
   ]
