@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the SuggestPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+import { IonicPage, NavController, NavParams ,ToastController} from 'ionic-angular';
+import {hospital} from '../../models/app.models';
+import {FirebaseDbProvider} from '../../providers/firebase-db/firebase-db';
 
 @IonicPage()
 @Component({
@@ -15,11 +10,26 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class SuggestPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  private hospitalObj = {} as  hospital;
+
+  constructor(public navCtrl: NavController, public navParams: NavParams,private db:FirebaseDbProvider,private toastCtrl:ToastController) 
+  {
+
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad SuggestPage');
+  sendSuggestion() {
+   if(this.hospitalObj.name && this.hospitalObj.address && this.hospitalObj.phone && this.hospitalObj.pin)	
+  	 this.db.addSuggestion(this.hospitalObj).then((res)=>{
+  	 	if(res) this.toast('Inserted');
+  	 },err => {
+  	 	this.toast('Unable to insert');
+  	 	this.hospitalObj = null;
+  	 });	
+   else this.toast('Enter all credentials');
+  }  
+  
+  toast(msg) {
+  	let  t = this.toastCtrl.create({message:msg,duration:2500,position:'bottom'});
+  	t.present();
   }
-
 }

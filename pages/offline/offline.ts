@@ -25,7 +25,7 @@ export class OfflinePage {
 
       this.searchControl.valueChanges.debounceTime(700).subscribe(search => {
         if(search == '' || !this.data) this.loadAllData();
-        else this.loadPinData(search);
+        else this.loadQueryData(search);
       });
   }
 
@@ -57,10 +57,11 @@ export class OfflinePage {
     })
   }
 
-  loadPinData(ev:any) {
+  loadQueryData(ev:any) {
     if(ev && ev.trim() != ''){
       this.data = this.data.filter((item)=>{
-        return item.pincode.toLowerCase().indexOf(ev.toLowerCase()) > -1;
+        if(!isNaN(ev)) return item.pin.toLowerCase().indexOf(ev.toLowerCase()) > -1;
+        else return item.name.toLowerCase().indexOf(ev.toLowerCase()) > -1;
       });
     }
   }

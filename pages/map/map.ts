@@ -87,7 +87,7 @@ export class MapPage {
 
       mapOptions = {
         center: latLng,
-        zoom: 15,
+        zoom: 14,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       }
 
@@ -120,7 +120,7 @@ export class MapPage {
     m.addListener('click',()=>{
       this.presentHosipitalSheet(obj);
     });
-  }  
+  }
 
   loadAllData() {
     this.db.loadData().subscribe(d => {

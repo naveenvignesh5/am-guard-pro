@@ -1,18 +1,30 @@
 <ion-header>
-
   <ion-navbar>
-    <ion-title>We welcome your help</ion-title>
+    <ion-title>Your Help</ion-title>
   </ion-navbar>
-
 </ion-header>
-
 
 <ion-content padding>
   <h3 style="text-align: center;">Suggest an hospital near you</h3>
   <ion-list>
   	<ion-item>
   		<ion-label floating>Hospital Name</ion-label>
-  		<ion-input type="text" [(ngModel)]="name"></ion-input>
+  		<ion-input type="text" [(ngModel)]="hospitalObj.name"></ion-input>
   	</ion-item>
+    <ion-item>
+      <ion-label floating>Hospital Address</ion-label>
+      <ion-textarea [(ngModel)]="hospitalObj.address"></ion-textarea>
+    </ion-item>
+  	<ion-item>
+  		<ion-label floating>Hospital Phone No. (w/o extension)</ion-label>
+  		<ion-input type="number" [(ngModel)]="hospitalObj.phone"></ion-input>
+  	</ion-item>
+  	<ion-item>
+  		<ion-label floating>Pincode</ion-label>
+  		<ion-input type='number' [(ngModel)]="hospitalObj.pin"></ion-input>
+  	</ion-item>
+    <ion-item (click) = "sendSuggestion()">
+      <button ion-item color="primary">Send Suggestion</button>
+    </ion-item>
   </ion-list>
 </ion-content>

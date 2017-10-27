@@ -8,11 +8,17 @@
   <img src="assets/img/handshake.jpg"/>
   <ion-list>
     <ion-item>
-      <ion-textarea placeholder="Would like know your thoughts..."
-      [(ngModel)]="msg"></ion-textarea>
+      <ion-textarea placeholder="Would like know your thoughts..." [(ngModel)]="review.message"></ion-textarea>
     </ion-item>
     <ion-item>
-      <button ion-item color="dark">Send Feedback</button>
+      <ion-label>Rate Us !!!</ion-label>
+      <ion-range min="0" max="5" step="1" snaps="true" color="yellow" pin="true" [(ngModel)]="review.rating">
+       <ion-icon name="star-outline" range-left></ion-icon> 
+       <ion-icon name="star" range-right color="yellow"></ion-icon> 
+      </ion-range>
+    </ion-item>
+    <ion-item>
+      <button ion-item color="dark" (click)="submitFeedback()">Send Feedback</button>
     </ion-item>
   </ion-list>
 </ion-content>

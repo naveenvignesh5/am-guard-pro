@@ -17,8 +17,5 @@ export class DbutilProvider {
     return this.http.get(url).map(res => res.json());
   }
 
-  sendFeedback(msg) {
-    return this.http.get('').map(res => res.json());
-  }
-
+  
 }

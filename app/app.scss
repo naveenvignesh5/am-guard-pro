@@ -2,3 +2,28 @@
   font-family: Arvo-Regular;
   src: url('../assets/fonts/Arvo-Regular.woff2') format('woff2');
 }
+
+@font-face {
+	font-family: Bree-Serif;
+	src: url('../assets/fonts/Bree-Serif.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Poiret-One;
+	src: url('../assets/fonts/Poiret-One.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: Comfortaa;
+	src: url('../assets/fonts/Comfortaa.woff2') format('woff2');
+}
+
+.toolbar-title {
+	font-family: Comfortaa;
+	font-size: 14pt;
+	color: #fff;
+}
+
+.toolbar-background {
+	background-color: #676767;
+}

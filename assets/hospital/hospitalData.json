@@ -1,86 +1,1234 @@
 [
-  {
-    "name": "Sundaram Medical Foundation",
-    "phone": "04426268844",
-    "mobile": "",
-    "pincode": "600040",
-    "lat":"13.0830171","lng":"80.2064348"
-  },
-  {
-    "name":"Shri Ramchandra Mission",
-    "phone":"04424760146",
-    "mobile":"",
-    "pincode":"600030",
-    "lat":"13.0390951","lng":"80.1413227"
-  },
-  {
-    "name":"Child Trust hospital",
-    "phone":"04428259601",
-    "mobile":"",
-    "pincode":"600034",
-    "lat":"13.0572703","lng":"80.243745"
-  },
-  {
-    "name":"Devaki Hospital",
-    "phone":"04424993391",
-    "mobile":"",
-    "pincode":"600004",
-    "lat":"13.0377445","lng":"80.2593021"
-  },
-  {
-    "name":"Hindu Mission Hospital",
-    "phone":"04422262244",
-    "mobile":"",
-    "pincode":"600045",
-    "lat":"12.9238478","lng":"80.1117929"
-  },
-  {
-    "name":"K.J.Hospital",
-    "phone":"04426411513",
-    "mobile":"",
-    "pincode":"600084",
-    "lat":"13.0992473","lng":"80.251615"
-  },
-  {
-    "name":"M.V.hospital",
-    "phone":"04425954913",
-    "mobile":"",
-    "pincode":"600013",
-    "lat":"13.0603208","lng":"80.2420454"
-  },
-  {
-    "name":"",
-    "phone":"",
-    "mobile":"",
-    "pincode":"",
-    "lat":"","lng":""
-  },
-  {
-    "name":"",
-    "phone":"",
-    "mobile":"",
-    "pincode":"",
-    "lat":"","lng":""
-  },
-  {
-    "name":"",
-    "phone":"",
-    "mobile":"",
-    "pincode":"",
-    "lat":"","lng":""
-  },
-  {
-    "name":"",
-    "phone":"",
-    "mobile":"",
-    "pincode":"",
-    "lat":"","lng":""
-  },
-  {
-    "name":"",
-    "phone":"",
-    "mobile":"",
-    "pincode":"",
-    "lat":"","lng":""
-  }
+ {
+   "name": "Apollo Hospitals Chennai",
+   "address": "320 Anna Salai, Teynampet, Chennai � 600035.",
+   "phone": "24331740",
+   "pin": "600035",
+   "lat": "13.0340026",
+   "lng": "80.2445816"
+ },
+ {
+   "name": "Asian Hospital",
+   "address": "E-147 A 2nd Avenue, Besant Nagar, Chennai -600090",
+   "phone": "24916763",
+   "pin": "600090",
+   "lat": "12.998072",
+   "lng": "80.2674124"
+ },
+ {
+   "name": "A.G.Hospital",
+   "address": "8-C Kakkan Street, Chennai - 600045",
+   "phone": "22366550",
+   "pin": "600084",
+   "lat": "12.9268998",
+   "lng": "80.1120197"
+ },
+ {
+   "name": "A.V.M.Medicals ENT Research Foundation Pvt Ltd",
+   "address": "No-3 P.S.Sivasamy Salai, Chennai - 600004",
+   "phone": "24994957",
+   "pin": "600004",
+   "lat": "13.0441478",
+   "lng": "80.2636993"
+ },
+ {
+   "name": "Aashiana Hospital",
+   "address": "1201, 6th Avenue, Anna Nagar, Chennai - 600040",
+   "phone": "26285152",
+   "pin": "600040",
+   "lat": "13.092073",
+   "lng": "80.2086422"
+ },
+ {
+   "name": "Agarwalls Eye Institute Private Limited",
+   "address": "13 C.D.L.Road, Chennai - 600086",
+   "phone": "28279685",
+   "pin": "600086",
+   "lat": "13.0482811",
+   "lng": "80.2494971"
+ },
+ {
+   "name": "Amar Hospital",
+   "address": "154 P.H.Road, Chennai - 600010",
+   "phone": "28256073",
+   "pin": "600010",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Apollo Cancer Hospital",
+   "address": "320 Anna Salai, Chennai - 600018",
+   "phone": "24363551",
+   "pin": "600018",
+   "lat": "13.0397442",
+   "lng": "80.24709"
+ },
+ {
+   "name": "Apollo Hospitals",
+   "address": "22 Greams Road, Chennai - 600006",
+   "phone": "28290029",
+   "pin": "600006",
+   "lat": "13.0576824",
+   "lng": "80.2553425"
+ },
+ {
+   "name": "Apollo Hospital Enterprises Limited",
+   "address": "21 Greams Road, Chennai - 600006",
+   "phone": "28273451",
+   "pin": "600006",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Apollo Medical Centre",
+   "address": "105 C-In-C Road, Chennai - 600105",
+   "phone": "28276410",
+   "pin": "600105",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "B.M.Hospital",
+   "address": "11-A John Desikar Road, Chennai - 600061",
+   "phone": "22341182",
+   "pin": "600061",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "B.R.S.Hospitals",
+   "address": "28 Cathedral Garden Road, Chennai - 600034",
+   "phone": "28255859",
+   "pin": "600034",
+   "lat": "13.0520269",
+   "lng": "80.2459063"
+ },
+ {
+   "name": "Balahji Hospital",
+   "address": "16, 1st Avenue, Ashok Nagar, Chennai - 600083",
+   "phone": "24893870",
+   "pin": "600083",
+   "lat": "13.0866323",
+   "lng": "80.1697791"
+ },
+ {
+   "name": "Balaji Hospital",
+   "address": "1, Lawyer Janardhan Street, Chennai - 600032",
+   "phone": "22343313",
+   "pin": "600032",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Begum Shafia Hospital",
+   "address": "25, Jamalia Nagar, Chennai - 600012",
+   "phone": "26425529",
+   "pin": "600012",
+   "lat": "13.1059427",
+   "lng": "80.2509839"
+ },
+ {
+   "name": "Best Hospital Private Limited",
+   "address": "10 Vellala Street, Chennai - 600024",
+   "phone": "24838190",
+   "pin": "600024",
+   "lat": "13.053777",
+   "lng": "80.2183239"
+ },
+ {
+   "name": "Bharani Hospital",
+   "address": "22 Arcot Road, Chennai - 600093",
+   "phone": "24840416",
+   "pin": "600093",
+   "lat": "13.0475712",
+   "lng": "80.2025443"
+ },
+ {
+   "name": "Bharat Hospitals",
+   "address": "211 Periyar Pathai, Chennai - 600094",
+   "phone": "24843512",
+   "pin": "600094",
+   "lat": "13.0593875",
+   "lng": "80.2197134"
+ },
+ {
+   "name": "Bharathi Rajaa Hospital & Research Centre",
+   "address": "11 Madley Road, Chennai - 600017",
+   "phone": "24341982",
+   "pin": "600017",
+   "lat": "13.0341908",
+   "lng": "80.2279145"
+ },
+ {
+   "name": "Billroth Health Centre",
+   "address": "43 Lakshmi Talkies Road, Chennai - 600030",
+   "phone": "26444070",
+   "pin": "600030",
+   "lat": "13.0757601",
+   "lng": "80.2273707"
+ },
+ {
+   "name": "Bohra Eye Hospital",
+   "address": "158 New Millitary Road, Avadi Camp, Chennai - 600054",
+   "phone": "26553290",
+   "pin": "600054",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Bora Hospital",
+   "address": "39 Sunbramania Mdli Street, Chennai - 600015",
+   "phone": "24850434",
+   "pin": "600015",
+   "lat": "13.0222653",
+   "lng": "80.2221945"
+ },
+ {
+   "name": "C.M.Hospital",
+   "address": "I-30 Anna Nagar East, Chennai - 600102",
+   "phone": "26265329",
+   "pin": "600102",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "C.S.I.Kalyani Multi Speciality Hospital",
+   "address": "15 Dr.Radhakrishnan Salai, Mylapore, Chennai - 600004",
+   "phone": "28475101",
+   "pin": "600004",
+   "lat": "13.043034",
+   "lng": "80.27235"
+ },
+ {
+   "name": "Childs Trust Hospital",
+   "address": "12 A.Nageswara Road, Chennai - 600034",
+   "phone": "28259601",
+   "pin": "600034",
+   "lat": "13.0573353",
+   "lng": "80.245786"
+ },
+ {
+   "name": "Chinnammal Ent Hospital",
+   "address": "111 P.H.Road, Noombal, Chennai - 600077",
+   "phone": "26272750",
+   "pin": "600077",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Christudas Hospital",
+   "address": "2 1 Elankovan Street, Chennai - 600059",
+   "phone": "22376969",
+   "pin": "600059",
+   "lat": "12.9238661",
+   "lng": "80.1300689"
+ },
+ {
+   "name": "Citi Hospital",
+   "address": "24, Sarder Patel Road, Adyar, Chennai - 600020",
+   "phone": "24422911",
+   "pin": "600020",
+   "lat": "13.0063933",
+   "lng": "80.252665"
+ },
+ {
+   "name": "City Tower Hospitals",
+   "address": "Aa-10 2nd Avenue, Anna Nagar, Chennai - 600040",
+   "phone": "26212974",
+   "pin": "600040",
+   "lat": "13.0844556",
+   "lng": "80.2160686"
+ },
+ {
+   "name": "Cosmetic Surgeries",
+   "address": "1, 2nd Cross Street, Karpagam Gardens, Chennai - 600020",
+   "phone": "24914132",
+   "pin": "600020",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Crescent Hospital",
+   "address": "34, Dr.Besant Road, Chennai - 600014",
+   "phone": "28544571",
+   "pin": "600014",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "C.S.I.Rainy Hospital",
+   "address": "Sholavaram, Chennai - 600067",
+   "phone": "26418086",
+   "pin": "600067",
+   "lat": "13.2391727",
+   "lng": "80.1609707"
+ },
+ {
+   "name": "Cancer Institute",
+   "address": "1 East Canal Bank Road, Gandhi Nagar, Chennai - 600020",
+   "phone": "22350131",
+   "pin": "600020",
+   "lat": "13.0149981",
+   "lng": "80.2495453"
+ },
+ {
+   "name": "Chennai Kaliappa Hospital",
+   "address": "43, 2nd Main Road, R.A.Puram Chennai - 600028",
+   "phone": "24936098",
+   "pin": "600028",
+   "lat": "13.0271381",
+   "lng": "80.2547185"
+ },
+ {
+   "name": "Chennai Transplant & Research Foundation",
+   "address": "No-3, 1st St, Venketswara Nagar, Adyar Chennai - 600020",
+   "phone": "24901868",
+   "pin": "600020",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Deepam Hospital Private Limited",
+   "address": "12 Shanmugam Road, Chennai - 600045",
+   "phone": "22367317",
+   "pin": "600045",
+   "lat": "12.9268692",
+   "lng": "80.1136498"
+ },
+ {
+   "name": "Devaki Hospital",
+   "address": "148 Luz Church Road, Mylapore, Chennai - 600004",
+   "phone": "24992607",
+   "pin": "600004",
+   "lat": "13.0377081",
+   "lng": "80.2607305"
+ },
+ {
+   "name": "Devi Hospital",
+   "address": "1620-A 17th Main Road, Anna Nagar, Chennai - 600040",
+   "phone": "26267000",
+   "pin": "600040",
+   "lat": "13.0909996",
+   "lng": "80.2005929"
+ },
+ {
+   "name": "Diabetes Research Centre & M.V.Hospital For Diabetes",
+   "address": "4 & 7 Nain Road, Chennai - 600013",
+   "phone": "25954911",
+   "pin": "600013",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Dr.Agarwals Eye Hospital Ltd",
+   "address": "13 Cathedral Garden Road, Chennai - 600086",
+   "phone": "28279685",
+   "pin": "600086",
+   "lat": "13.0520194",
+   "lng": "80.246956"
+ },
+ {
+   "name": "Dr.G.D.Boaz Memorial Hospital",
+   "address": "Sanpuram, Chennai - 600045",
+   "phone": "22403700",
+   "pin": "600045",
+   "lat": "13.0517415",
+   "lng": "80.2671794"
+ },
+ {
+   "name": "Dr.Gunasagaram Hospitals & clinic",
+   "address": "72 Peters Road, Royapettah, Chennai - 600014",
+   "phone": "28268005",
+   "pin": "600014",
+   "lat": "13.0538193",
+   "lng": "80.2629948"
+ },
+ {
+   "name": "Dr. Rai Memorial Cancer Institute",
+   "address": "562 Mount Road, Teynampet, Chennai - 600018",
+   "phone": "24349407",
+   "pin": "600018",
+   "lat": "13.0467995",
+   "lng": "80.2483099"
+ },
+ {
+   "name": "G.G.Hospital",
+   "address": "148, 24 N.H.Road, Chennai - 600034",
+   "phone": "28277563",
+   "pin": "600034",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "G.K.Hospital",
+   "address": "302 P.M.Road, Chennai - 600011",
+   "phone": "25571003",
+   "pin": "600011",
+   "lat": "13.1199023",
+   "lng": "80.1654211"
+ },
+ {
+   "name": "G.S.Hospital",
+   "address": "466, 3rd Avenue, Indira Nagar, Chennai - 600020",
+   "phone": "24912308",
+   "pin": "600020",
+   "lat": "13.0071192",
+   "lng": "80.2482874"
+ },
+ {
+   "name": "Gokuldass Maternity Hospital",
+   "address": "123 R.C.Street, Chennai - 600003",
+   "phone": "25352815",
+   "pin": "600003",
+   "lat": "13.0851898",
+   "lng": "80.2759278"
+ },
+ {
+   "name": "Government Opthalmic Hospital",
+   "address": "Marshalls Road, Chennai - 600008",
+   "phone": "28554540",
+   "pin": "600008",
+   "lat": "13.0683618",
+   "lng": "80.2608767"
+ },
+ {
+   "name": "Grace Hospital",
+   "address": "M.T.H.Road, Nemlichery, Chennai - 600024",
+   "phone": "26390404",
+   "pin": "600024",
+   "lat": "12.9492379",
+   "lng": "80.1503671"
+ },
+ {
+   "name": "Gremalters Referral Hospital",
+   "address": "Gajapathy Street, Chennai - 600030",
+   "phone": "26443411",
+   "pin": "600030",
+   "lat": "13.0774078",
+   "lng": "80.2285998"
+ },
+ {
+   "name": "Guest Hospital",
+   "address": "782 P.H.Road, Chennai - 600010",
+   "phone": "26413420",
+   "pin": "600010",
+   "lat": "13.0781229",
+   "lng": "80.2464339"
+ },
+ {
+   "name": "Gujarati Sahaykari Hospital",
+   "address": "3 Ravana Street, Chennai - 600003",
+   "phone": "25351335",
+   "pin": "600003",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Guru Raghavendra Hospitals",
+   "address": "Ponambalam Road, Chennai - 600078",
+   "phone": "24729396",
+   "pin": "600078",
+   "lat": "13.0407662",
+   "lng": "80.1967553"
+ },
+ {
+   "name": "Hande Hospital",
+   "address": "44 Lakshmi Talkies Road, Shenoy Nagar, Chennai - 600030",
+   "phone": "26449422",
+   "pin": "600030",
+   "lat": "13.076445",
+   "lng": "80.227361"
+ },
+ {
+   "name": "Harvey Heart Hospital Limited",
+   "address": "20 Pycrofts Garden Road, Nungambakkam, Chennai - 600006",
+   "phone": "28234209",
+   "pin": "600006",
+   "lat": "13.0641833",
+   "lng": "80.2490549"
+ },
+ {
+   "name": "Hindu Mission Hospital",
+   "address": "36 G.S.T.Road, Tambaram West, Chennai - 600045",
+   "phone": "22367711",
+   "pin": "600045",
+   "lat": "12.9283068",
+   "lng": "80.1178233"
+ },
+ {
+   "name": "Hirachand Chordia Eye Hospital",
+   "address": "28 Kappa Street, Chennai - 600001",
+   "phone": "25228374",
+   "pin": "600001",
+   "lat": "13.024683",
+   "lng": "80.2292012"
+ },
+ {
+   "name": "Hopkins Hospitals",
+   "address": "75 New Avadi Road, Kilpauk, Chennai - 600010",
+   "phone": "26445855",
+   "pin": "600010",
+   "lat": "13.0826464",
+   "lng": "80.2311463"
+ },
+ {
+   "name": "Huma Specialists Hospital & Research Centre",
+   "address": "424 M.T.Road, Chennai - 600035",
+   "phone": "24330020",
+   "pin": "600035",
+   "lat": "13.168068",
+   "lng": "80.3042765"
+ },
+ {
+   "name": "Impcops Hospital",
+   "address": "34-37 L.B.Road, Chennai - 600041",
+   "phone": "24910711",
+   "pin": "600041",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Indian Hospital Corporation Limited",
+   "address": "22 Greams Road, Chennai - 600006",
+   "phone": "28295752",
+   "pin": "600006",
+   "lat": "13.0576824",
+   "lng": "80.2553425"
+ },
+ {
+   "name": "Industrial Trauma Care Centre",
+   "address": "707 M.T.H.Road, Chennai - 600050",
+   "phone": "26255425",
+   "pin": "600050",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Ivon Sted Ford Hospital",
+   "address": "Ambattur, Chennai - 600053",
+   "phone": "26383256",
+   "pin": "600053",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "J.S.Hospital",
+   "address": "77 Ramamurthy Colony, T.V.K.Nagar, Chennai - 600008",
+   "phone": "25378958",
+   "pin": "600008",
+   "lat": "13.1223382",
+   "lng": "80.2317828"
+ },
+ {
+   "name": "J.V.Hospital",
+   "address": "30 Railwaty Border Road, Chennai - 600024",
+   "phone": "24839111",
+   "pin": "600024",
+   "lat": "13.0640587",
+   "lng": "80.2324036"
+ },
+ {
+   "name": "Janamma Hospital",
+   "address": "38 Venkatakrishnier Road, Chennai - 600017",
+   "phone": "24938034",
+   "pin": "600017",
+   "lat": "13.0268619",
+   "lng": "80.2619974"
+ },
+ {
+   "name": "Jaya Hospital",
+   "address": "8 Nagendra Nagar, Chennai - 600032",
+   "phone": "22453706",
+   "pin": "600032",
+   "lat": "12.9173321",
+   "lng": "80.1937179"
+ },
+ {
+   "name": "Jayadev Polyclinic Hospital",
+   "address": "814 P.H.Road, Kilpauk, Chennai - 600010",
+   "phone": "26412230",
+   "pin": "600010",
+   "lat": "13.077684",
+   "lng": "80.2414812"
+ },
+ {
+   "name": "Jayasri Hospital",
+   "address": "4 38 M.A.Kl Street, M.A.Nagar, Chennai - 600052",
+   "phone": "26418877",
+   "pin": "600052",
+   "lat": "12.941363",
+   "lng": "80.145726"
+ },
+ {
+   "name": "Jaysree Mary Hospital",
+   "address": "15, 1st Lane, Neels Garden, Chennai - 600011",
+   "phone": "26479122",
+   "pin": "600011",
+   "lat": "13.1117809",
+   "lng": "80.2387086"
+ },
+ {
+   "name": "K.G.Hospital For Women & Children",
+   "address": "Chepauk, Chennai - 600005",
+   "phone": "28530280",
+   "pin": "600005",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "K.H.M.Hospital",
+   "address": "Ab-14, 6th Main Road, Anna Nagar, Chennai - 600040",
+   "phone": "26212218",
+   "pin": "600040",
+   "lat": "13.0917817",
+   "lng": "80.2131958"
+ },
+ {
+   "name": "K.J.Hospital",
+   "address": "927 Poonamallee High Road, Chennai - 600084",
+   "phone": "26411513",
+   "pin": "600084",
+   "lat": "13.0763558",
+   "lng": "80.202896"
+ },
+ {
+   "name": "K.K.R.Ent Hospital",
+   "address": "827, Poonamallee High Road, Chennai - 600010",
+   "phone": "26411444",
+   "pin": "600010",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "K.S.Hospital",
+   "address": "747, Poonamallee High Road, Kilpauk, Chennai - 600010",
+   "phone": "26412326",
+   "pin": "600010",
+   "lat": "13.078119",
+   "lng": "80.2464121"
+ },
+ {
+   "name": "Kalyani Hospital",
+   "address": "15 Dr.R.K.Salai, Chennai - 600004",
+   "phone": "28571101",
+   "pin": "600004",
+   "lat": "13.043034",
+   "lng": "80.27235"
+ },
+ {
+   "name": "Kensington Hospital",
+   "address": "856, Poonamallee H Road, Kilpauk, Chennai - 600010",
+   "phone": "26413086",
+   "pin": "600010",
+   "lat": "13.0784063",
+   "lng": "80.2478813"
+ },
+ {
+   "name": "Lakshmi Maternity Hospital",
+   "address": "20 3rd Avenue, Indra Nagar, Adyar Chennai - 600020",
+   "phone": "24917155",
+   "pin": "600020",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Lifeline Diabetes Centre Pvt Ltd",
+   "address": "54 9-A, L.B.Road, Chennai � 600020.",
+   "phone": "24917627",
+   "pin": "600020",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "M.N.Orthopaedic Hospital",
+   "address": "24 Laskhmi Street, Chennai - 600010",
+   "phone": "26470791",
+   "pin": "600010",
+   "lat": "13.0788909",
+   "lng": "80.232872"
+ },
+ {
+   "name": "M.R.Hospital",
+   "address": "20 Govindan Street, Ayavoo Naidu Colony, Chennai - 600029",
+   "phone": "24757925",
+   "pin": "600029",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "M.V.Diabetes Specialities Centre Pvt Ltd",
+   "address": "35 Conran Smith Road, Chennai - 600086",
+   "phone": "28263038",
+   "pin": "600086",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Madras Andrology Research Centre",
+   "address": "141 Eldams Road, Chennai - 600018",
+   "phone": "24352130",
+   "pin": "600018",
+   "lat": "13.0380987",
+   "lng": "80.2564616"
+ },
+ {
+   "name": "Madras Ent Research Foundation Pvt Ltd",
+   "address": "2 P.S.Sivasamy Salai, Chennai - 600004",
+   "phone": "24970876",
+   "pin": "600004",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Madras Institute Ofortho & Traumatoly",
+   "address": "N.S.K.Road, Chennai - 600026",
+   "phone": "24726204",
+   "pin": "600026",
+   "lat": "13.0491977",
+   "lng": "80.2064636"
+ },
+ {
+   "name": "Madras Medical Mission Unit Institute Of Cardio Vascular Disease",
+   "address": "4-A, Dr.J.J.Nagar, Mogappair, Chennai - 600050",
+   "phone": "26259801",
+   "pin": "600050",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Malar Hospitals Limited",
+   "address": "52, 1st Main Road, Gandhi Nagar, Chennai - 600020",
+   "phone": "24914023",
+   "pin": "600020",
+   "lat": "13.008033",
+   "lng": "80.249231"
+ },
+ {
+   "name": "Meenam Hospital",
+   "address": "D-161, Anna Nagar, Chennai - 600102",
+   "phone": "26444384",
+   "pin": "600102",
+   "lat": "13.0912502",
+   "lng": "80.2205305"
+ },
+ {
+   "name": "Meeran Hospital",
+   "address": "26, Vellayudan Street, Chennai - 600001",
+   "phone": "25247346",
+   "pin": "600001",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Mikao Reiki Clinic & Holistic Health Centre",
+   "address": "5 Govindan Street, Ayyavu Colony, Chennai - 600029",
+   "phone": "24839415",
+   "pin": "600029",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Miot Hospitals",
+   "address": "No-4/112 Poonamallee Road, Manapakkam, Chennai - 600089",
+   "phone": "22312288",
+   "pin": "600089",
+   "lat": "13.0213295",
+   "lng": "80.1856227"
+ },
+ {
+   "name": "Mnagamani Hospital",
+   "address": "116 G.A.Road, Chennai - 600021",
+   "phone": "25952727",
+   "pin": "600021",
+   "lat": "13.0738471",
+   "lng": "80.2262246"
+ },
+ {
+   "name": "Mohan Dr.L.P.General Hospital",
+   "address": "12 M G Road, Shastri Nagar, Tiruvanmiyur, Chennai - 600041",
+   "phone": "24461037",
+   "pin": "600041",
+   "lat": "12.9964965",
+   "lng": "80.2587117"
+ },
+ {
+   "name": "Murari Hospital ",
+   "address": "R.H.Road, Chennai - 600060 ",
+   "phone": "25375350",
+   "pin": "600060",
+   "lat": "13.1228656",
+   "lng": "80.2657954"
+ },
+ {
+   "name": "Nalamm Hospital ",
+   "address": "10-A 3, 1st Cross Street, M.K.B.Nagar, Chennai - 600039 ",
+   "phone": "25512835",
+   "pin": "600039",
+   "lat": "13.115133",
+   "lng": "80.263538"
+ },
+ {
+   "name": "National Hospital ",
+   "address": "2nd Lane, Beach Road Chennai - 600001 ",
+   "phone": "25211917",
+   "pin": "600001",
+   "lat": "13.09182",
+   "lng": "80.290628"
+ },
+ {
+   "name": "Nichani Hospital ",
+   "address": "7 Arathoon Road, Kilpauk, Chennai - 600010 ",
+   "phone": "25951666",
+   "pin": "600010",
+   "lat": "13.112664",
+   "lng": "80.294478"
+ },
+ {
+   "name": "Premier Radiological & Cancer Hospital Pvt Ltd ",
+   "address": "91 R.K.Road, Chennai - 600004",
+   "phone": "28269548",
+   "pin": "600004",
+   "lat": "13.0334698",
+   "lng": "80.2678322"
+ },
+ {
+   "name": "Rainy Hospital ",
+   "address": "G.A.Road, Chennai - 600021",
+   "phone": "25951204",
+   "pin": "600021",
+   "lat": "13.1247198",
+   "lng": "80.2753886"
+ },
+ {
+   "name": "Raju Hospital Private Limited ",
+   "address": "40 South Usman Road, Chennai - 600017 ",
+   "phone": "24341901",
+   "pin": "600017",
+   "lat": "13.0454702",
+   "lng": "80.2326271"
+ },
+ {
+   "name": "Ranjith Hospital ",
+   "address": "61 Medavakkam Tank Road, Kilpauk, Chennai - 600010",
+   "phone": "26425991",
+   "pin": "600010",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Rural Eye Hospital ",
+   "address": "8 G.S.T.Road, Chennai - 600006 ",
+   "phone": "28271616",
+   "pin": "600006",
+   "lat": "12.9289061",
+   "lng": "80.1141497"
+ },
+ {
+   "name": "R.K.Gynaec & Maternity Hospital ",
+   "address": "866 Poonamallee H Road, Kilpauk, Chennai - 600010",
+   "phone": "26411415",
+   "pin": "600010",
+   "lat": "13.0785593",
+   "lng": "80.2486211"
+ },
+ {
+   "name": "R.M.Hospital Pvt Ltd ",
+   "address": "A-1 Srinivasapuram, Chennai - 600041 ",
+   "phone": "24412377",
+   "pin": "600041",
+   "lat": "12.9758464",
+   "lng": "80.2589907"
+ },
+ {
+   "name": "R.R.Plastic Surgery ",
+   "address": "190 Pursawalkam High Road, Chennai - 600010",
+   "phone": "26403557",
+   "pin": "600010",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "R.S.Trinity Acute Care Hospital ",
+   "address": "33 Desikan Road, Chennai - 600004 ",
+   "phone": "24991488",
+   "pin": "600004",
+   "lat": "13.0375803",
+   "lng": "80.2581784"
+ },
+ {
+   "name": "Ragas Dental College & Hospital ",
+   "address": "116 R.K.Road, Chennai - 600004",
+   "phone": "28547670",
+   "pin": "600004",
+   "lat": "13.0335513",
+   "lng": "80.2678491"
+ },
+ {
+   "name": "Raghavi Hospital",
+   "address": "12 16 Mogappair East, Chennai - 600050",
+   "phone": "26258664",
+   "pin": "600050",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Siddha Hospital ",
+   "address": "2nd Avenue Main Road, Anna Nagar West Chennai - 600040 ",
+   "phone": "26264150",
+   "pin": "600040",
+   "lat": "13.084808",
+   "lng": "80.2027488"
+ },
+ {
+   "name": "Sindhi Medical Relif Society ",
+   "address": "6 Managappa Street, Chennai - 600079",
+   "phone": "25221973",
+   "pin": "600079",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Siva Ent Head & Neck Hospital",
+   "address": "94-95 Avvai Shanmugam Salai, Chennai - 600014",
+   "phone": "28260451",
+   "pin": "600014",
+   "lat": "13.0471622",
+   "lng": "80.2732696"
+ },
+ {
+   "name": "Sivasundar Hospital ",
+   "address": "9, 1st Cross Street, Shastri Nagar, Chennai - 600020 ",
+   "phone": "24917752",
+   "pin": "600020",
+   "lat": "12.9996646",
+   "lng": "80.2579258"
+ },
+ {
+   "name": "Sooriya Hospital ",
+   "address": "1 1 Arunachalam Road, Saligramam, Chennai - 600093 ",
+   "phone": "24838091",
+   "pin": "600093",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "The Specialists Hospital ",
+   "address": "23 P.H.Road, Chennai - 600007",
+   "phone": "26426936",
+   "pin": "600007",
+   "lat": "13.0465519",
+   "lng": "80.1113085"
+ },
+ {
+   "name": "Sree Ayyappa Charitable Trust ",
+   "address": "24 Pushpa Nagar, 1st St, Nungambakkam Chennai - 600034 ",
+   "phone": "28211599",
+   "pin": "600034",
+   "lat": "13.0591579",
+   "lng": "80.2380641"
+ },
+ {
+   "name": "Sri Balaji Hospital",
+   "address": "68, 13th West Cross Road, Chennai - 600039",
+   "phone": "25377890",
+   "pin": "600039",
+   "lat": "13.1242669",
+   "lng": "80.263923"
+ },
+ {
+   "name": "Sri Devi Hospital ",
+   "address": "1620-A, 16th Main Road, Anna Nagar West, Chennai - 600040 ",
+   "phone": "26266900",
+   "pin": "600040",
+   "lat": "13.0890066",
+   "lng": "80.2010742"
+ },
+ {
+   "name": "Sri Jain Medical Relief Society ",
+   "address": "Vinayaka Street, Chennai - 600001",
+   "phone": "25228701",
+   "pin": "600001",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Sri Santosh Hospitals ",
+   "address": "Railway Border Road, Chennai - 600047",
+   "phone": "22404871",
+   "pin": "600047",
+   "lat": "13.0640587",
+   "lng": "80.2324036"
+ },
+ {
+   "name": "Srinivas Priya Hospital Pvt Ltd ",
+   "address": "106, Patel Road, Perambur, Chennai - 600011",
+   "phone": "25514577",
+   "pin": "600011",
+   "lat": "13.1096581",
+   "lng": "80.2450025"
+ },
+ {
+   "name": "Sriseseva Hospital Private Limited ",
+   "address": "20 Pycrofts Garden Road, Chennai - 600006",
+   "phone": "28233743",
+   "pin": "600006",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "St.Anthonys Hospital ",
+   "address": "18 Oliver Road, Chennai - 600004",
+   "phone": "24993944",
+   "pin": "600004",
+   "lat": "13.0391613",
+   "lng": "80.2610045"
+ },
+ {
+   "name": "St.Anthonys Hospital ",
+   "address": "Madhavaram High Road, Chennai - 600060",
+   "phone": "25376392",
+   "pin": "600060",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Sugam Hospital",
+   "address": "349 T.H.Road, Thiruvottiyur, Chennai - 600019",
+   "phone": "25733830",
+   "pin": "600019",
+   "lat": "13.1680156",
+   "lng": "80.3042625"
+ },
+ {
+   "name": "Sundar Hospital ",
+   "address": "W98, 2nd Avenue, Anna Nagar, Chennai - 600040",
+   "phone": "26260120",
+   "pin": "600040",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Sundaram Medical Foundation Community Hospital ",
+   "address": "4 2, 9-C Block. 4th Avenue, Anna Nagar, Chennai - 600040 ",
+   "phone": "26264187",
+   "pin": "600040",
+   "lat": "13.0822569",
+   "lng": "80.2176418"
+ },
+ {
+   "name": "Swaram Hospitals Private Limited ",
+   "address": "224, 4th Avenue, Indira Nagar, Chennai - 600020",
+   "phone": "24912625",
+   "pin": "600020",
+   "lat": "12.9931372",
+   "lng": "80.2543779"
+ },
+ {
+   "name": "S.K.Hospital ",
+   "address": "176 P.H.Road, Chennai - 600010",
+   "phone": "28255308",
+   "pin": "600010",
+   "lat": "13.0459331",
+   "lng": "80.1126562"
+ },
+ {
+   "name": "Santhi Hospital ",
+   "address": "18 East Coast Road, Thiruvanmiyur, Chennai - 600041",
+   "phone": "24490228",
+   "pin": "600041",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Santosham Chest Hospital ",
+   "address": "70 Egmore High Road, Chennai - 600008",
+   "phone": "28252378",
+   "pin": "600008",
+   "lat": "13.0748403",
+   "lng": "80.2547285"
+ },
+ {
+   "name": "Sarala Neurology Hospital & Research Centre ",
+   "address": "752 P.H.Road, Chennai - 600010",
+   "phone": "26426766",
+   "pin": "600010",
+   "lat": "13.0781196",
+   "lng": "80.2464152"
+ },
+ {
+   "name": "Shifa Hospital ",
+   "address": "203 Camp Road, Chennai - 600073 ",
+   "phone": "22376282",
+   "pin": "600073",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Shiva Sunder Hospital ",
+   "address": "9, 1st Cross Street, Shastri Nagar, Chennai - 600020",
+   "phone": "24919216",
+   "pin": "600020",
+   "lat": "12.9996646",
+   "lng": "80.2579258"
+ },
+ {
+   "name": "T.B.Chemotheraphy Centre ",
+   "address": "Spur Tank Road, Chennai - 600031 ",
+   "phone": "28265427",
+   "pin": "600031",
+   "lat": "13.070719",
+   "lng": "80.2467613"
+ },
+ {
+   "name": "T.T.K.Hospital ",
+   "address": "54, 4th Main Road, Indira Nagar, Adyar, Chennai - 600020 ",
+   "phone": "24418153",
+   "pin": "600020",
+   "lat": "12.991445",
+   "lng": "80.255188"
+ },
+ {
+   "name": "T.T.Ranganathan Clinical Research Foundation ",
+   "address": "17, 4th Main Road, Indira Nagar, Adyar, Chennai - 600020 ",
+   "phone": "24912948",
+   "pin": "600020",
+   "lat": "12.991047",
+   "lng": "80.253319"
+ },
+ {
+   "name": "Tamiland Hospital Limited ",
+   "address": "30, 1st Main Road, Gandhi Nagar, Chennai - 600020 ",
+   "phone": "24914013",
+   "pin": "600020",
+   "lat": "13.0068807",
+   "lng": "80.2573846"
+ },
+ {
+   "name": "Tamilnadu Hospital Limited ",
+   "address": "2, 11th Eastate, K.Nagar, Chennai - 600041",
+   "phone": "24928708",
+   "pin": "600041",
+   "lat": "12.955457",
+   "lng": "80.2609051"
+ },
+ {
+   "name": "Tamilnadu Hospital Limited ",
+   "address": "Perumbakkam, Chennai - 600302 ",
+   "phone": "22375597",
+   "pin": "600302",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Thangham Hospital Private Limited ",
+   "address": "1537, Anna Nagar West, Extension Chennai - 600101",
+   "phone": "26252919",
+   "pin": "600101",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "The Heart Institute ",
+   "address": "175 N.S.K.Salai, Chennai - 600026",
+   "phone": "24831919",
+   "pin": "600026",
+   "lat": "13.0670111",
+   "lng": "80.2093269"
+ },
+ {
+   "name": "Triveni Hospital ",
+   "address": "5 Cemetry Road, Chennai - 600013",
+   "phone": "25229097",
+   "pin": "600013",
+   "lat": "13.1078426",
+   "lng": "80.2910379"
+ },
+ {
+   "name": "V.K.Hospital ",
+   "address": "77 Dr.Alagappa Road, Chennai - 600084",
+   "phone": "26426922",
+   "pin": "600084",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Venku Hospitals ",
+   "address": "5 12-V, M.T.Poonamallee Road, Chennai - 600089",
+   "phone": "22331100",
+   "pin": "600089",
+   "lat": "13.0140844",
+   "lng": "80.1934646"
+ },
+ {
+   "name": "Vignesh Hospital",
+   "address": "35/2, Poothapedu Main Road, Porur, Chennai - 600116",
+   "phone": "24769479",
+   "pin": "600116",
+   "lat": "13.0289267",
+   "lng": "80.1704614"
+ },
+ {
+   "name": "Vijaya Hospital",
+   "address": "180 N.S.K.Salai, Chennai - 600026",
+   "phone": "24802221",
+   "pin": "600026",
+   "lat": "13.0674808",
+   "lng": "80.2650935"
+ },
+ {
+   "name": "Vikram Hospital",
+   "address": "445 Mint Street, Chennai - 600001",
+   "phone": "25270166",
+   "pin": "600001",
+   "lat": "13.0855113",
+   "lng": "80.2783222"
+ },
+ {
+   "name": "Vyasarpady 24 Hours Hospital",
+   "address": "286 E.H.Road, Chennai - 600039",
+   "phone": "25513297",
+   "pin": "600039",
+   "lat": "13.1228656",
+   "lng": "80.2657954"
+ },
+ {
+   "name": "Willee Hospital",
+   "address": "3rd Street, Vatchalapuram, Chennai - 600024",
+   "phone": "26390570",
+   "pin": "600024",
+   "lat": "14.417748",
+   "lng": "79.9816399"
+ },
+ {
+   "name": "Wellington Hospital",
+   "address": "21 Pycrofts Garden Road, Nungambakkam, Chennai - 600006",
+   "phone": "28284548",
+   "pin": "600006",
+   "lat": "13.0641833",
+   "lng": "80.2490549"
+ },
+ {
+   "name": "Women & Childeren Hospital",
+   "address": "22 Pc Off Road, Chennai - 600008",
+   "phone": "28252686",
+   "pin": "600008",
+   "lat": "NA",
+   "lng": "NA"
+ },
+ {
+   "name": "Y.V.K.Hospital",
+   "address": "14 2 Devanthan Street, Chennai - 600028",
+   "phone": "24939888",
+   "pin": "600028",
+   "lat": "13.0275236",
+   "lng": "80.2635441"
+ },
+ {
+   "name": "Zubeda Hospitals Limited",
+   "address": "10 Dr.Guruswamy Road, Chennai - 600031",
+   "phone": "26412539",
+   "pin": "600031",
+   "lat": "NA",
+   "lng": "NA"
+ }
 ]

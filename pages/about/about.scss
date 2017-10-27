@@ -1,3 +1,9 @@
 page-about {
-
+	.mainblock {
+	  font-family:Comfortaa;
+	  font-size: 15pt;
+	  color: map-get($colors,primary);
+	  //font-weight: bolder;
+	  text-align:center;
+	}
 }

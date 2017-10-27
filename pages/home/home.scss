@@ -3,6 +3,7 @@ page-home {
   ion-menu ion-label {
     font-family: Arvo-Regular;
     font-size: 14pt;
+    color: #676767;
   }
 
   .menulogo {
@@ -10,5 +11,9 @@ page-home {
     display: block;
     width: 75%; height: auto;
     padding: 15pt;
+  }
+
+  ion-menu ion-icon {
+    color: #FF5733;
   }
 }
